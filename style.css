@@ -1,0 +1,94 @@
+/*body {
+    margin: 0;
+}
+
+
+.bg-form {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-content {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+}
+
+input {
+    width: 150px;
+    margin: 3px;
+}
+
+.data-holders {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    
+}
+
+.submit-btns {
+    display: flex;
+}
+*/
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* heading section */
+
+.heading {
+    color: #009879;
+    border-bottom: 1px solid #dddddd;
+    display: flex;
+    align-items: center;
+    gap: 750px;
+    padding: 12px 250px;
+}
+
+.heading button {
+    height: 40px;
+    background-color: #009879;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 10px;
+    font-weight: 600;
+}
+
+/* table section */
+.table-section {
+    display: flex;
+    justify-content: center;
+}
+
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 600px;
+}
+
+.content-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th, .content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
