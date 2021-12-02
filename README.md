@@ -15,4 +15,4 @@ library is a simple small library app in html, css, js.
 ### 🌎 Future updates
 > repsonsive design for mobile devices coming soon
 
-> 🌐 check out the project now @[https://sudeepkaucha.com.np]
+> 🌐 check out the project now @[https://sudeep-k.github.io/library/]
