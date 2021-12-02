@@ -14,7 +14,28 @@
     <body>
         <div class="heading">
             <h1 class="heading-header">Library</h1>
-            <button class="add-book">Add Entry</button>
+            <button class="add-entry">Add Entry</button>
+        </div>
+
+        <div class="form-bg">
+            <div class="form-content">
+                <div class="form-header">
+                    <h1>Add books to library?</h1>
+                    <p>sign up the information below</p>
+                </div>
+
+                <div class="data-holders">
+                    <input id="title" type="text" placeholder="title">
+                    <input id="author" type="text" placeholder="author">
+                    <input id="pages" type="text" placeholder="pages">
+                    <input id="response" type="text" placeholder="response">
+                </div>
+
+                <div class="submit-btns">
+                    <button class="cancel-btn">cancel</button>
+                    <button class="add-book" onclick="fetchData()">Add Book</button>
+                </div>
+            </div>
         </div>
 
         <div class="table-section">
@@ -26,7 +47,7 @@
                         <th>author</th>
                         <th>pages</th>
                         <th>response</th>
-                        <th>remove</th>
+                        <th>delete</th>
                     </tr>
 
                 </thead>
@@ -39,32 +60,3 @@
     </body>
 
 </html>
-
-        <!-- <button class="">Add Entry</button>
-        <div class="bg-form">
-            <div class="form-content">
-                <div class="data-holders">
-                    <input type="text" placeholder="title">
-                    <input type="text" placeholder="author">
-                    <input type="text" placeholder="pages">
-                    <input type="text" placeholder="repsonse">
-                </div>
-                <div class="submit-btns">
-                    <button>Add book</button>
-                    <button>Cancel</button>
-                </div>
-            </div>
-        </div>
-        <table>
-            <thead>
-                <tr>
-                    <th>title</th>
-                    <th>author</th>
-                    <th>pages</th>
-                    <th>response</th>
-                </tr>
-            </thead>
-            <tbody>
-
-            </tbody>
-        </table> -->
